@@ -39,11 +39,11 @@ public class Main {
                     isWinner = true;
                 } else if (playersNumber > secretNumber) {
                     System.out.println("Наше число меньше)");
-                    attemptsLeft = attemptsLeft - 1;
+                    attemptsLeft = attemptsLeft - 5;
                     System.out.println("У тебя осталось " + attemptsLeft + " попыток");
                 } else {
                     System.out.println("Наше число больше)");
-                    attemptsLeft = attemptsLeft - 1;
+                    attemptsLeft = attemptsLeft - 5;
                     System.out.println("У тебя осталось " + attemptsLeft + " попыток");
                 }
             } catch (NumberFormatException e) {
